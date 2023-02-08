@@ -42,7 +42,7 @@ import { Link } from "react-router-dom";
           <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
          
         </li>
-       <li> <i class="fa-sharp fa-solid fa-star fs-2 text-danger"><span class="icon-count">{store.length}</span></i></li>
+       <li> <Link to={"/favorit"}><i class="fa-sharp fa-solid fa-star fs-2 text-danger"><span class="icon-count">{store.length}</span></i></Link></li>
       </ul>
 
     </div>
