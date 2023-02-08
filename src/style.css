@@ -1,0 +1,36 @@
+#word{
+    /* position: absolute;
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 40px; */
+    color: white;
+    /* 
+    top: 10px; */
+    text-transform: capitalize;
+    font-size: 100px;
+    
+
+}
+.hello{
+    height: 60vh;
+    margin-top: 20px;
+    background-image:url("./cover.jpg");
+     background-size:80%;
+
+} 
+.word{
+    /* position: absolute  ;
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 40px; */
+    color: white;
+   
+    /* top: 200px; */ 
+     font-size: 40px;
+    text-transform: capitalize;
+
+}
+#btn{
+    width: 300px;
+    font-size: 30px;
+}
